@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const ToyHeader = () => (
-  <div id='toy-header'>
-    <img src="https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png" alt="toy-header"/>
-  </div>
-);
+class ToyHeader extends Component {
+
+  render() {
+
+    return (
+      <div id='toy-header'>
+        <img src="https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png" alt="toy-header"/>
+      </div>
+    )
+  }
+
+}
+
 
 export default ToyHeader;
